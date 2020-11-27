@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-#define config_address 0X04 //Address used to configuration of max6952 prior to operation
+#define config_address 0X04 //Address used for the configuration of max6952 prior to operation
 #define config_value 0X01   //Setting the features of the configuration to bring max6952 to no shutdown state
 
 #define scanlimit_address 0X03 //Address of scan limit
